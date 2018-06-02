@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.bridgeit.firstprogram.HelloWord"/>
+<fullyQualifiedTypeName name="com.bridgeit.secondprogram.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="com.bridgeit.setterinjection.Employee"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.bridgeit.collection.SpringCollection"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="com.bridgeit.AnnotationOfAutowired.Hostel"/>
+<fullyQualifiedTypeName name="com.bridgeit.AnnotationOfAutowired.Student"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="com.bridgeit.scopes.Message"/>
+<fullyQualifiedTypeName name="com.bridgeit.constructoorbaseddependacy.PANCard"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.bridgeit.constructoorbaseddependacy.Employee"/>
+<fullyQualifiedTypeName name="com.bridgeit.beanconfiguration.HelloWord"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.bridgeit.beanconfiguration1.ConfigA"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 </qualifiedTypeNameHistroy>

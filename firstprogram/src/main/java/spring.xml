@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans  xmlns = "http://www.springframework.org/schema/beans"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
-   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-   
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   <context:annotation-config/>
 <!--<bean  id="helloWorld" class="com.bridgeit.firstprogram.HelloWord" init-method="Myinit" destroy-method="MyDistroy">
 <property name="message" value="Hello Spring"></property>
 </bean>-->
@@ -18,16 +21,26 @@
 <property name="name" value="madhuri"></property>
 <constructor-arg ref="address"></constructor-arg>
 </bean>-->
-<!-- SetterBased Injection(App3) -->
-<bean id="employee12" class="com.bridgeit.setterinjection.Employee">
+<!-- SetterBased Injection(App3)&&Using Autowiring byName -->
+<bean id="employee12" class="com.bridgeit.setterinjection.Employee" autowire="byType">
 <property name="eid" value="102"></property>
 <property name="name" value="Shravni"></property>
-<property name="address"><ref bean="address"/>
-</property>
+<!--<property name="address"><ref bean="address"/>
+</property>-->
 </bean>
+<bean id="addresss" class="com.bridgeit.setterinjection.Address">
+<property name="city" value="xyz"></property>
+<property name="state" value="zyx"></property> 
+ <property name="zipcode" value="50001"></property> 
+</bean>
+<!--<bean id="employee12" class="com.bridgeit.setterinjection.Employee" autowire="byName">
+<property name="eid" value="102"></property>
+<property name="name" value="Shravni"></property>
+ </bean>
 <bean id="address" class="com.bridgeit.setterinjection.Address">
 <property name="city" value="xyz"></property>
 <property name="state" value="zyx"></property>
 <property name="zipcode" value="50001"></property>
-</bean>
+</bean> -->
+
 </beans>

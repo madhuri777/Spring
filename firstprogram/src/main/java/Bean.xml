@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   
+   
+   <context:annotation-config></context:annotation-config>
+   
+   <bean id="student" class="com.bridgeit.AnnotationOfAutowired.Student">
+   <property name="studentid" value="101"></property>
+   <property name="studentname" value="madhuri"></property>
+   </bean>
+   <bean id="hostel" class="com.bridgeit.AnnotationOfAutowired.Hostel">
+   <property name="hostelname" value="BHABHA"></property>
+   <property name="hostelcity" value="mumbai"></property>
+   <property name="hostelstate" value="Maharastar"></property>
+   </bean>
+   <bean id="hostel2" class="com.bridgeit.AnnotationOfAutowired.Hostel">
+   <property name="hostelname" value="BHA"></property>
+   <property name="hostelcity" value="chennai"></property>
+   <property name="hostelstate" value="kerela"></property></bean>
+   
+   <bean id="message" class="com.bridgeit.scopes.Message" >
+   <property name="messageid" value="101"></property>
+   <property name="messge" value="Hello!!!"></property>
+   </bean>
+   <bean id="employee" class="com.bridgeit.constructoorbaseddependacy.Employee" autowire="constructor">
+   <constructor-arg name="empid" value="103"></constructor-arg>
+   </bean>
+   <bean id="pancard" class="com.bridgeit.constructoorbaseddependacy.PANCard">
+   <property name="pancardnumber" value="PANSH123"></property>
+   <property name="pancardholdername" value="Madhuri Satkar"></property>
+   </bean>
+   </beans>

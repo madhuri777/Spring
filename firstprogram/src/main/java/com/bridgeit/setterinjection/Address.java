@@ -1,5 +1,7 @@
 package com.bridgeit.setterinjection;
 
+import org.springframework.beans.factory.annotation.Required;
+
 public class Address {
 
 	String city;
@@ -10,6 +12,7 @@ public class Address {
 		
 		return city;
 	}
+	@Required
 	public void setCity(String city) {
 		System.out.println("city name");
 		this.city = city;
@@ -17,6 +20,7 @@ public class Address {
 	public String getState() {
 		return state;
 	}
+	@Required
 	public void setState(String state) {
 		System.out.println("name of state");
 		this.state = state;
@@ -24,6 +28,7 @@ public class Address {
 	public int getZipcode() {
 		return zipcode;
 	}
+	@Required
 	public void setZipcode(int zipcode) {
 		System.out.println(" zipcode");
 		this.zipcode = zipcode;

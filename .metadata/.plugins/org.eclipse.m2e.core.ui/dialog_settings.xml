@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgeit/eclipse-workspace-Spring/firstprogram"/>
 			<item value="/home/bridgeit/eclipse-workspace-Spring"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -57,16 +58,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.bridgeit.firstprogram"/>
-			<item value="com.bridgeit.spring.FirstProgram"/>
+			<item value="com.bridgeit.com.bridgeit.collection"/>
 		</list>
 		<list key="groupId">
 			<item value="com.bridgeit"/>
-			<item value="com.bridgeit.spring"/>
 		</list>
 		<list key="artifactId">
-			<item value="firstprogram"/>
-			<item value="FirstProgram"/>
+			<item value="com.bridgeit.collection"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

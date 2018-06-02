@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="collection" class="com.bridgeit.collection.SpringCollection">
+<property name="list">
+<list>
+<value>Maharastra</value>
+<value>Gujarat</value>
+<value>Rajastan</value>
+<value>Maharastra</value>
+</list>
+</property>
+<property name="set">
+<set>
+<value>Maharastra</value>
+<value>Gujarat</value>
+<value>Chennai</value>
+<value>Maharastra</value>
+<value>Rajastan</value>
+</set>
+</property>
+<property name="map">
+<map>
+<entry key="1" value="Maharastar"></entry>
+<entry key="2" value="Gujarat"></entry>
+<entry key="3" value="chennai"></entry>
+<entry key="4" value="kolkatta"></entry>
+</map>
+</property>
+</bean>
+</beans>
