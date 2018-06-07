@@ -20,6 +20,7 @@
    <property name="hostelstate" value="Maharastar"></property>
    </bean>
    <bean id="hostel2" class="com.bridgeit.AnnotationOfAutowired.Hostel">
+   <qualifier value="mm"></qualifier>
    <property name="hostelname" value="BHA"></property>
    <property name="hostelcity" value="chennai"></property>
    <property name="hostelstate" value="kerela"></property></bean>

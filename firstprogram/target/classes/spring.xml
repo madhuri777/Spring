@@ -11,7 +11,7 @@
 <property name="message" value="Hello Spring"></property>
 </bean>-->
 <!-- ConstuctorBased Injection(App2) -->
-<!--<bean id="address" class="com.bridgeit.secondprogram.Address">
+<bean id="address" class="com.bridgeit.secondprogram.Address">
 <property name="city" value="Mumbai"></property>
 <property name="state" value="Maharastra"></property>
 <property name="zipcode" value="400084"></property>
@@ -20,7 +20,7 @@
 <property name="eid" value="101"></property>
 <property name="name" value="madhuri"></property>
 <constructor-arg ref="address"></constructor-arg>
-</bean>-->
+</bean>
 <!-- SetterBased Injection(App3)&&Using Autowiring byName -->
 <bean id="employee12" class="com.bridgeit.setterinjection.Employee" autowire="byType">
 <property name="eid" value="102"></property>

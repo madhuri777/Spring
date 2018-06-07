@@ -8,7 +8,7 @@ public class Student {
 	private int studentid;
 	private String studentname;
 	@Autowired
-	@Qualifier("hostel2")
+	@Qualifier("mm")
 	private Hostel hostel;
 	public int getStudentid() {
 		return studentid;
