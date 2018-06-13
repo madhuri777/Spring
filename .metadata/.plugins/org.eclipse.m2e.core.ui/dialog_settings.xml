@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgeit/eclipse-workspace-Spring/JDBCTemplateExample"/>
 			<item value="/home/bridgeit/eclipse-workspace-Spring/AOP"/>
 			<item value="/home/bridgeit/eclipse-workspace-Spring/firstprogram"/>
 			<item value="/home/bridgeit/eclipse-workspace-Spring"/>
@@ -59,6 +60,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgeit.controller.Controller"/>
 			<item value="com.bridgeit.JDBCTemplateExample"/>
 			<item value="com.bridgeit.AOPAnnotation"/>
 			<item value="com.bridgeit.springAop"/>
@@ -66,9 +68,11 @@
 			<item value="com.bridgeit.com.bridgeit.collection"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bridgeit.controller"/>
 			<item value="com.bridgeit"/>
 		</list>
 		<list key="artifactId">
+			<item value="Controller"/>
 			<item value="JDBCTemplateExample"/>
 			<item value="AOPAnnotation"/>
 			<item value="springAop"/>
